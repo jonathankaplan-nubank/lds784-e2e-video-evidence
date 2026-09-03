@@ -1,0 +1,19 @@
+LDS-784 annotated E2E video — 2026-09-02
+
+VIDEO
+  /tmp/lds784-e2e/clean-video/LDS-784-BR-staging-renegotiation-E2E-annotated.mp4
+
+UI OUTCOME
+  Did NOT reach interactive success screen.
+  Prior interactive path reached PIN then lending-warning.error (desktop PIN discharge).
+  Fresh loan UI opened to down-payment; Santa blocked unsigned click automation for further steps.
+  Local PIN client patch exists but was not re-validated end-to-end in this video (clicks blocked).
+
+API CODA (honest, labeled)
+  New loan: 6a98cbd0-8b81-4f5b-ab09-52ed53c82b1e
+  Reneg created: 6a98d194-26fd-47f8-992a-172607a0518f
+  DP: 267.65 savings; plan installments; first due 2026-10-02
+  Response: /tmp/lds784-e2e/clean-video/reneg-created.json
+
+CUSTOMER
+  6a986a76-d750-4b2c-b17f-05272a341222 (Maximillian)
